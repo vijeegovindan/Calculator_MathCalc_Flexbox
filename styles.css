@@ -1,0 +1,57 @@
+/*colors -
+  Main Green: #61b34f
+  Light Green: #82c276
+*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 60vw;
+  width: 48vw;
+  border: 1px solid black;
+  background-color: #61b34f;
+}
+
+.content-row {
+  height: 12vw;
+  display: flex;
+}
+
+.output{
+  width: 34.5vw;
+  height: 11vw;
+  border: .05em solid white;
+  flex-grow: 3;
+  color: white;
+  font-size: 3vw;
+  padding-top: 8%;
+  padding-left: 2%;
+  letter-spacing: 0.5vw;
+  text-align: right;
+}
+
+.squares {
+  border: .05em solid white;
+  background-color: #61b34f;
+  width: 12vw;
+  color: white;
+  font-size: 3vw;
+  outline: none;
+  cursor: pointer;
+}
+
+#bg_operators, #bg_sqrt
+{
+  background-color: #82c276;
+  color: black;
+}
+
+#bg_operators:hover, #bg_sqrt:hover
+{
+  color: white;
+}
+
+input[value="C"]:hover, input[value="="]:hover
+{
+  background-color: #82c276;
+}
